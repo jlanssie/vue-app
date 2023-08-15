@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <h1>Hello again</h1>
   <p>

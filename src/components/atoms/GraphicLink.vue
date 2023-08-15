@@ -7,3 +7,19 @@ defineProps(['src', 'url', 'alt'])
     <img v-bind:src="src" />
   </a>
 </template>
+
+<style lang="scss" scoped>
+@import '../../styles/variables.scss';
+
+a {
+  img {
+    height: 2rem;
+    width: 2rem;
+
+    &:hover,
+    &:focus {
+      filter: brightness(0);
+    }
+  }
+}
+</style>
